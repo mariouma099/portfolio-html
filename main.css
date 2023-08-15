@@ -1,0 +1,48 @@
+body { background-color: #CCCCFF; 
+       margin-left:15%; 
+       margin: right 5%;
+    }
+h1  {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}  
+.tt { color: #004C99;
+        font-weight: bold;
+        font-size: 140%;
+    }
+ h2 { color:  #ee8a8ae8;
+    }
+ .image_container 
+    { display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+.image_container img
+    {
+        max-width: 100%;
+        height: auto; 
+        margin: 5px;
+    }
+h3{ color: #330066; }
+
+.season{font-weight: bold;
+    font-size: 110%;
+}
+.SI {
+    width: 100%;
+    display: flex;
+    
+}
+
+fieldset {
+    flex: 1;
+    max-width: 50%;
+   
+}
+
+    .button{
+        background-color: rgba(127, 129, 255, 0.329);
+        border: 1px solid dotted red;
+        padding: 1%;
+    }

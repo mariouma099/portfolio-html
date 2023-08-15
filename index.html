@@ -4,37 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My potfolio</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <header>
-    <textarea name="message" cols="30" rows="5">
-        Welcome to My porftolio
-    </textarea>
-    <h1>ALL YOU NEED ABOUT ME</h1>
+        <h1 class="title">ALL YOU NEED ABOUT ME</h1>
 </header>
+<fieldset><legend class="tt"> Welcome to My porftolio</legend>
 <nav>
     <ul>
-        <li><a href="image.html">photo<a/></li>
-        <li><a href ="about me">about me<a/></li> 
-         <li><a href="cv image.html">curriculum vitae<a/></li> 
-         <li><a href="contact">contact<a/></li>
+        <li><a href="image.html">photo</a></li>
+        <li><a href="about me">about me</a></li> 
+        <li><a href="cv image.html">curriculum vitae</a></li> 
+        <li><a href="contact">contact</a></li>
     </ul>
 </nav>
 <section id="photo">
     <h2>Mariem's photo</h2>
-    <img scr=""IMG-1660.jpg" width="150px" height="150px" alt="it's me">
+    <img src="IMG-1660.jpg" width="150px" height="150px" alt="it's me">
 </section>
 <section id="About me">
     <h2>About me</h2>
-    <p>Hi,I'm passionate about international trade and finance. <br>I'm currently enrolled in Faculty of economics and management sciences of Tunis.<br> Morover, i aspire to become an entrepreneur.</p>
+    <fieldset class="SI">
+        <legend>Small introduction</legend>
+    <p>Hi, I'm Mariem Ben Hriz. I'm passionate about international trade and finance. <br>I'm currently enrolled in Faculty of economics and management sciences of Tunis.<br> Morover, i aspire to become an entrepreneur.</p>
+    </fieldset>
+    <h3> My favorite animals are :</h3>
+    <label>
+        <input type="radio" name="Dogs" value="yes"checked> Dogs
+    </label>
+    <label>
+        <input type="radio" name="Horses" value="Yes" checked> Horses
+    </label>
+    <label>
+        <input type="radio" name="cats" value="No"> Cats
+    </label>
+    <div class="img_container">
+        <h3> Also this is my dog. Her name is Louza </h3>
+        <img src="LOULOU.jpg" width="270px" height="225px" alt="photo">
+        <h3>And this is my handsome horse </h3>
+        <img src="HRS.jpg" width="270px" height="225px" alt="photo">
+         </div>
+        <br><br>
+      <form>
+       <label for class="season"> Gues whats is My Favorite season ?</label>
+        <input type="text" id="season" name="season" list="seasons">
+        <datalist id="seasons">
+            <option value="summer">
+            <option value="winter">
+            <option value="spring">
+            <option value="autumn">
+        </datalist>
+        </form>
+        <br>
+        <h3> The most beautiful sunset i have seen </h3>
+<iframe width="450" height="250" src="https://www.youtube.com/embed/gzzRFU8CcG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body><br><br>
 </section>
 <section id="curriculum vitae">
     <h2>MY CV</h2>
-    <img scr="CV.jpeg" widh="150px" height="150px" alt="MY CV">
+    <img src="CV.jpeg" width="300px" height="300px" alt="MY CV">
 </section>
 <section id="contact">
     <h2>Contact me</h2>
-    <table>
+    <table border="1">
         <tr>
         <th>Phone number</th>
         <th>Personal e-mail</th>
@@ -45,10 +77,17 @@
         <td>mariambenhariz92@gmail.com</td>
         <td>Mariem ben hriz</td>
         </tr>
-    </table>
+    </table> <br><br>
 </section>
+<form >
+    <input class="button" type="submit" value="Submit">
+</form>
+</fieldset>
 </body>
 <footer>
+    <a href="#">go top</a> <br>
     <p>&copy; 2023 All rights reserved - My Porfolio</p>
+
 </footer>
+
 </html>
